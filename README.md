@@ -8,7 +8,7 @@
   
   This fitness tracker allows the user to view create and track daily workouts. They have the ability to log multiple exercises in a workout on a given day and also track the name, type, weight, sets, reps, and duration of exercise.The data from these logs are then analyzed on the stats page that provides details of all their workouts. Used MongoDB, Mongoose and Express to built the backend.
 
-  [Homepage]((https://github.com/Devesh-p1/fitness_tracker.git))
+  [Homepage]((https://github.com/ahsan13101994/Fitness_Tracker))
 
   [Demo] ((https://track-fitstat.herokuapp.com/))
 
