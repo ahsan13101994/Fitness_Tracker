@@ -11,6 +11,16 @@ router.get("/api/workouts", (req, res) => {
 		});
 });
 
+router.get("/api/workouts/range", (req, res) => {
+	db.find({}).limit(12)
+		.then((dbData) => {
+			res.json(dbData);
+		})
+		.catch((err) => {
+			res.json(err);
+		});
+});
+
 // POST workout
 router.post("/api/workouts", ({ body }, res) => {
 	db.create(body)
