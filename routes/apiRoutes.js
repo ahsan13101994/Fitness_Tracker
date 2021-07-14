@@ -11,5 +11,15 @@ router.get("/api/workouts", (req, res) => {
 		});
 });
 
+// POST workout
+router.post("/api/workouts", ({ body }, res) => {
+	db.create(body)
+		.then((dbData) => {
+			res.json(dbData);
+		})
+		.catch((err) => {
+			res.json(err);
+		});
+});
 
 module.exports = router;
