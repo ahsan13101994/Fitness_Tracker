@@ -29,13 +29,8 @@
   ## Usage 
   
   *Instructions and examples for use:
-   
-  [Demo Link](https://drive.google.com/file/d/1lt_5fTS1c40iQVHQvRut7Gcmee0FBQef/view)*
   
   To run this app MongoDB, Mongoose and Express are required
-
-  [MIT License](undefined)
-  ![License Badge](https://img.shields.io/badge/license-MIT License-9cf)
 
   ## Contributing
  
@@ -50,7 +45,7 @@
 
   ## License
   
-  MIT License
+  MIT License (https://img.shields.io/badge/License-MIT-blue.svg)
 
   ## Support
   
