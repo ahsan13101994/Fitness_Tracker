@@ -45,8 +45,7 @@
 
   ## License
   
-  MIT License (https://img.shields.io/badge/License-MIT-blue.svg)
-
+  MIT License 
   ## Support
   
   If you have any questions, or open issues about the repo, I can be reached at:
