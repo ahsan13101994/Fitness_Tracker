@@ -22,7 +22,7 @@ router.post("/api/workouts", ({ body }, res) => {
 		});
 });
 
-// PUT/UPDATE workout
+// PUT/UPDATE Workout
 
 router.put("/api/workouts/:id", ({ body, params }, res) => {
 	db.findByIdAndUpdate(params.id, { $push: { exercises: body } }, 
@@ -35,6 +35,7 @@ router.put("/api/workouts/:id", ({ body, params }, res) => {
 		});
 });
 
+// Delete Workout
 router.delete("/api/workouts", ({ body }, res) => {
     Workout.findByIdAndDelete(body.id)
       .then(() => {
@@ -44,5 +45,5 @@ router.delete("/api/workouts", ({ body }, res) => {
         res.json(err);
       });
   });
-  
+
 module.exports = router;
