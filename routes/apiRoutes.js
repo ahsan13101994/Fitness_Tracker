@@ -22,4 +22,17 @@ router.post("/api/workouts", ({ body }, res) => {
 		});
 });
 
+// PUT/UPDATE workout
+
+router.put("/api/workouts/:id", ({ body, params }, res) => {
+	db.findByIdAndUpdate(params.id, { $push: { exercises: body } }, 
+        { new: true, runValidators: true })
+		.then((dbData) => {
+			res.json(dbData);
+		})
+		.catch((err) => {
+			res.json(err);
+		});
+});
+
 module.exports = router;
