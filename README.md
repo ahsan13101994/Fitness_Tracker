@@ -2,20 +2,23 @@
 
   # Track FitStat
   
-  https://img.shields.io/badge/license-[MIT License](undefined)
-  ![License Badge](https://img.shields.io/badge/license-MIT License-9cf)-9cf
+ <p>
+   <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/ahsan13101994/Fitness_Tracker" />
+  </a>
+</p>
 
   ## Description 
   
   This fitness tracker allows the user to view create and track daily workouts. They have the ability to log multiple exercises in a workout on a given day and also track the name, type, weight, sets, reps, and duration of exercise.The data from these logs are then analyzed on the stats page that provides details of all their workouts. Used MongoDB, Mongoose and Express to built the backend.
 
-  Table of Contents Section
+  [Homepage]((https://github.com/Devesh-p1/fitness_tracker.git))
+
+  [Demo] ((https://track-fitstat.herokuapp.com/))
 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  undefined
-  
   * [Tests](#tests)
 
 
@@ -54,7 +57,9 @@
   ## Support
   
   If you have any questions, or open issues about the repo, I can be reached at:
+
   Email: ahsan.ali0307@gmail.com
+
   GitHub: [@Ahsan13101994](https://github.com/Ahsan13101994/).
 
 Demo of the application is available at: https://track-fitstat.herokuapp.com/
