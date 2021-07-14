@@ -2,11 +2,7 @@
 
   # Track FitStat
   
- <p>
-   <a href="#" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/ahsan13101994/Fitness_Tracker" />
-  </a>
-</p>
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   ## Description 
   
@@ -15,6 +11,8 @@
   [Homepage]((https://github.com/Devesh-p1/fitness_tracker.git))
 
   [Demo] ((https://track-fitstat.herokuapp.com/))
+
+  ## Screenshots
 
   ## Table of Contents
   * [Installation](#installation)
